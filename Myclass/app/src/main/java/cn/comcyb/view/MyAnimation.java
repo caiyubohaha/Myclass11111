@@ -31,8 +31,8 @@ public class MyAnimation extends Animation {
         mCamera.getMatrix(matrix);
         mCamera.restore();
 
-        matrix.preTranslate(x,y);
-        matrix.postTranslate(-x,-y);
+       /* matrix.preTranslate(x,y);
+        matrix.postTranslate(-x,-y);*/
     }
 
     @Override

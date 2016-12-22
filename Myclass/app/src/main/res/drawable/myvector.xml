@@ -4,11 +4,21 @@
     android:height="200dp"
     android:viewportWidth="100"
     android:viewportHeight="100">
-    <path
+    <group
+        android:name="test"
+        android:rotation="0"
+        >
+        <path
+            android:fillColor="@color/colorAccent"
+            android:strokeWidth="4"
+            android:strokeColor="@color/colorPrimaryDark"
+            android:pathData="M 25,50a25,25,0 1,1,50,0"></path>
+    </group>
+    <!--<path
+
         android:strokeWidth="2"
-          android:strokeColor="@color/colorPrimaryDark"
-          android:pathData="M 25,50
-          a25,25,0 1,1,50,0"></path>
+        android:strokeColor="@color/colorPrimaryDark"
+        android:pathData="M25,100A50,50,0,1,1,75,100M25,100ZL50,50L75,100"></path>-->
 
 
 </vector>
